@@ -2,6 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
+
   get '/' do
     erb :new
   end
@@ -17,5 +18,6 @@ class App < Sinatra::Base
 
     erb :student
   end
+
 
 end
